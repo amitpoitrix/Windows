@@ -1,0 +1,10 @@
+node_modules
+.env
+version
+
+package-lock.json
+*.swap
+*.swp
+
+version
+scripts

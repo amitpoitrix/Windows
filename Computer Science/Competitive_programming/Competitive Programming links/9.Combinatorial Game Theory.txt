@@ -1,0 +1,25 @@
+Game Theory 🔥🔥 Complete ROADMAP, NOTES & STRATEGY || Competitive Programming || Part-9
+
+What to study in Game Theory for Competitive Programming ??
+From where to study Game Theory??
+What to practice to verify the learning Game Theory ?? 
+
+References:
+
+Notes: https://drive.google.com/file/d/1fSTz...
+
+GFG Set 1:https://www.geeksforgeeks.org/introdu...
+
+GFG Set 2:geeksforgeeks.org/combinatorial-game-theory-set-2-game-nim/?ref=rp
+
+GFG Set 3:https://www.geeksforgeeks.org/combina...
+
+GFG Set 4:https://www.geeksforgeeks.org/combina...
+
+TopCoder Resources: https://www.topcoder.com/community/co...
+
+Questions:
+
+Questions Basic & Intermediate: https://drive.google.com/file/d/12AUg...
+
+Find Advanced Questions here: https://www.codechef.com/certificatio... 

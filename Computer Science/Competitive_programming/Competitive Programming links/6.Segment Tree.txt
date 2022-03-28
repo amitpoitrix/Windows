@@ -1,0 +1,29 @@
+[Part 6] Segment Trees | Advanced Data Structure | Competitive Programming Series
+
+What to study in Segment Trees for Competitive Programming ??
+From where to study Segment Trees??
+What to practice to verify the learning  Segment Trees?? 
+
+Used Links:
+
+Build Segment tree Video: https://www.youtube.com/watch?v=FR5d4...
+Lazy Propagation GFG Video: https://www.youtube.com/watch?v=UKH4Z...
+Lazy Propagation Tushar Roy Video: https://www.youtube.com/watch?v=xuoQd...
+Range Min Query:https://www.geeksforgeeks.org/segment...
+Range Max Query:https://www.geeksforgeeks.org/segment...
+Range Sum Query:https://www.geeksforgeeks.org/range-s...
+Spoj GSS1: https://www.spoj.com/problems/GSS1/
+SPOJ GSS3:https://www.spoj.com/problems/GSS3/
+SPOJ KGSS:https://www.spoj.com/problems/KGSS/
+SPOJ ANDROUND:https://www.spoj.com/problems/ANDROUND/
+SPOJ D-QUERY: https://www.spoj.com/problems/DQUERY/
+SPOJ NICEDAY: https://www.spoj.com/problems/NICEDAY/
+SPOJ FREQUENT: https://www.spoj.com/problems/DQUERY/
+SPOJ YODANESS: https://www.spoj.com/problems/YODANESS/
+CODECHEF JTREE:https://www.codechef.com/problems/JTREE
+CODECHEF COUNZ:https://www.codechef.com/problems/COUNZ
+CODECHEF DIVMAC:https://www.codechef.com/SEPT16/probl... 
+CODECHEF QSET: https://www.codechef.com/problems/QSET
+
+For More Question refer this link of Codechef CCDSAP: https://www.codechef.com/certificatio...
+ 

@@ -1,0 +1,235 @@
+1. Reverse Array
+
+package DSA_package;
+
+public class Reverse_Array {
+	// Printing the element of the array
+	public static void printArray(int arr[], int n) {
+		for(int i=0;i<n;i++) {
+			System.out.println("Array at index "+i+" = "+arr[i]);
+		}
+		System.out.println();
+	}
+	
+	public static void reverseArray(int arr[], int start, int end) {
+		int temp;
+		while(start < end) {
+			temp = arr[start];
+			arr[start] = arr[end];
+			arr[end] = temp;
+			start++;
+			end--;
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr1[] = {1,2,3};
+		printArray(arr1,arr1.length);
+		reverseArray(arr1,0,arr1.length-1);
+		System.out.println("Array in reverse order is \n");
+		printArray(arr1,arr1.length);
+	}
+}
+
+// Using Recursion only reverseArray() will be change as follows
+
+	public static void reverseArray(int arr[], int start, int end) {
+		int temp;
+		// base condition
+		if (start >= end)
+			return;
+		temp = arr[start];
+		arr[start] = arr[end];
+		arr[end] = temp;
+		reverseArray(arr, start+1, end-1);
+	}
+----------------------------------------------------------------------------------------------
+
+2. Minimum and Maximum value in an array
+
+package DSA_package;
+
+public class minMax {
+	// creating a class that will return two values
+        // DOUBT why here static is use?
+
+	static class pairs {
+		int min;
+		int max;
+	}
+	
+	public static pairs getMinMax(int arr1[], int n)  {
+                // creating instance of inner class to return two values
+		pairs minmax = new pairs ();
+		
+		// If only single element is there in the array than max and min will be same
+		if (n==1) {
+			minmax.min = arr1[0];
+			minmax.max = arr1[0];
+		}
+		
+		if (n>1) {
+			if (arr1[0] > arr1[1]) {
+				minmax.max = arr1[0];
+				minmax.min = arr1[1];
+			}
+			else if(arr1[0] < arr1[1]) {
+				minmax.max = arr1[1];
+				minmax.min = arr1[0];
+			}
+		}
+		
+		for (int i = 2; i < n; i++) {
+			if (arr1[i] > minmax.max) {
+				minmax.max = arr1[i];
+			}
+			else if (arr1[i] < minmax.min) {
+				minmax.min = arr1[i];
+			}
+		}
+		return minmax;
+	}
+
+	public static void main(String[] args) {
+		int arr[] = {600,500,976,105,11,444};
+		pairs min_max = getMinMax(arr, arr.length);
+		System.out.println("Minimum Value "+min_max.min);
+		System.out.println("Maximum Value "+min_max.max);
+	}
+}
+
+T.C - O(n)
+
+Method 2 : Tournament Method (using recursion)
+
+package DSA_package;
+
+public class minMax {
+	// creating a class that will return two values
+	static class pairs {
+		int min;
+		int max;
+	}
+	
+	public static pairs getMinMax(int arr1[], int low, int high)  {
+		pairs minmax = new pairs ();
+		pairs mml = new pairs();
+		pairs mmr = new pairs();
+		int mid;
+		
+		// If only single element is there in the array than max and min will be same
+		if (low==high) {
+			minmax.min = arr1[low];
+			minmax.max = arr1[low];
+			return minmax;
+		}
+		
+		// when two elements are there in the array
+		if (high == low+1) {
+			if (arr1[high] > arr1[low]) {
+				minmax.max = arr1[high];
+				minmax.min = arr1[low];
+			}
+			else if(arr1[high] < arr1[low]) {
+				minmax.max = arr1[low];
+				minmax.min = arr1[high];
+			}
+			return minmax;
+		}
+		
+		mid = (low + high)/2;
+		mml = getMinMax(arr1, low, mid);
+		mmr = getMinMax(arr1, mid+1, high);
+		
+		if(mml.min < mmr.min) {
+			minmax.min = mml.min;
+		}else {
+			minmax.min = mmr.min;
+		}
+		
+		if(mml.max < mmr.max) {
+			minmax.max = mmr.max;
+		}else {
+			minmax.max = mml.max;
+		}
+		return minmax;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = {600,500,976,105,11,444};
+		pairs min_max = getMinMax(arr,0 , arr.length-1);
+		System.out.println("Minimum Value "+min_max.min);
+		System.out.println("Maximum Value "+min_max.max);
+	}
+}
+T.C - O(n)
+
+Method 3 : Compare in pairs
+
+package DSA_package;
+
+public class minMax {
+	// creating a class that will return two values
+	static class pairs {
+		int min;
+		int max;
+	}
+	
+	public static pairs getMinMax(int arr1[], int n)  {
+		pairs minmax = new pairs ();
+		int i;
+		
+		// If even no of elements are there then compare first two elements to get min and max and if odd no of
+		// elements are there then assign first element as min and max 
+		if (n%2==0) {
+			if(arr1[0] > arr1[1]) {
+				minmax.min = arr1[1];
+				minmax.max = arr1[0];
+			}
+			else {
+				minmax.min = arr1[0];
+				minmax.max = arr1[1];
+			}
+			i=2;
+		}
+		else {
+			minmax.min = arr1[0];
+			minmax.max = arr1[0];
+			i=1;
+		}
+		
+		while(i < n-1) {
+			if(arr1[i] > arr1[i+1]) {
+				if(arr1[i] > minmax.max) {
+					minmax.max = arr1[i];
+				}
+				if(arr1[i+1] < minmax.min) {
+					minmax.min = arr1[i+1];
+				}
+			}
+			else {
+				if(arr1[i+1] > minmax.max) {
+					minmax.max = arr1[i+1];
+				}
+				if(arr1[i] < minmax.min) {
+					minmax.min = arr1[i];
+				}
+			}
+			i+=2;
+		}		
+		return minmax;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = {600,500,976,105,11,444};
+		pairs min_max = getMinMax(arr, arr.length);
+		System.out.println("Minimum Value "+min_max.min);
+		System.out.println("Maximum Value "+min_max.max);
+	}
+}
+
+T.C. - O(n)
+

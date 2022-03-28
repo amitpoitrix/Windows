@@ -1,0 +1,169 @@
+1.Arrays
+
+References:
+Documentation :-  https://www.geeksforgeeks.org/arrays-...
+EasyTutsforU :- https://www.youtube.com/watch?v=_5_-U...
+GeeksForGeeks link :-  https://www.youtube.com/watch?v=eOdNh...
+Tutorial point :-https://www.tutorialspoint.com/cplusp...
+Multidimesional Arrays:-https://www.geeksforgeeks.org/multidi...
+PDF :- https://1drv.ms/b/s!AqTOHFO77CqExGo11...
+
+Questions:
+Basic Level : https://1drv.ms/b/s!AqTOHFO77CqExGhIv...
+Intermediate Level : https://1drv.ms/b/s!AqTOHFO77CqExGkiW...
+
+2.String
+
+References:
+Documentation:-  https://www.geeksforgeeks.org/stdstri...
+ApniKaksha:-  https://www.youtube.com/watch?v=d1NPE...
+Gfg link :-  https://www.youtube.com/watch?v=3rDp0...
+Tutorial point :-https://www.tutorialspoint.com/cplusp...
+
+Questions:
+Basic Level : https://1drv.ms/b/s!AqTOHFO77CqExGxix...
+Intermediate Level : https://1drv.ms/b/s!AqTOHFO77CqExG0TS...
+
+3.Linked List
+
+References:
+Documentation :-  https://www.geeksforgeeks.org/data-st...
+Tutorial point Documentation :- https://www.tutorialspoint.com/data_s...  
+MyCodeSchool :-  https://youtu.be/NobHlGUjV3g 
+Gfg Playlist link :-  https://www.youtube.com/watch?v=utc8b... 
+Tutorial point Video : - https://youtu.be/QaWkT-ZUwxA
+
+PDF :- https://1drv.ms/b/s!AqTOHFO77CqExgAb3... 
+(from Book By SK Srivastava and Deepali Srivastava)
+
+Questions:
+Questions Basic: https://1drv.ms/b/s!AqTOHFO77CqExgFTu... 
+Questions Intermidiate: https://1drv.ms/b/s!AqTOHFO77CqExgIxp...
+
+4.TREE 
+
+References:
+GFG Tree Playlist : https://www.youtube.com/watch?v=IpyCq... ​
+MyCodeSchool Playlist: https://www.youtube.com/watch?v=qH6yx... ​
+
+Binary Tree: https://www.geeksforgeeks.org/binary-...
+Binary Search Tree: https://www.geeksforgeeks.org/binary-...
+AVL tree: https://www.geeksforgeeks.org/avl-tre...
+Red Black Tree: https://www.geeksforgeeks.org/red-bla...
+B Tree: https://www.geeksforgeeks.org/introdu...
+B+ Tree: https://www.geeksforgeeks.org/introdu... ​
+
+Questions:
+Questions Basic: https://1drv.ms/b/s!AqTOHFO77CqExgWbf... ​
+Questions Intermediate: https://1drv.ms/b/s!AqTOHFO77CqExgYYW...
+
+5.STACK/QUEUE/HEAP
+
+References:
+GFG Stack Playlist : https://www.youtube.com/watch?v=vZEuS...  ​
+GFG Queue Playlist : https://www.youtube.com/watch?v=q5oOY... ​
+GFG Heap : https://www.youtube.com/watch?v=uZj0h...
+
+Tutorialspoint Stack : https://www.tutorialspoint.com/data_s...
+Tutorialspoint Queue: https://www.tutorialspoint.com/data_s...
+Tutorialspoint Heap : https://www.tutorialspoint.com/data_s...
+
+GFG Stack Documentation: https://www.geeksforgeeks.org/stack-d...
+GFG Queue Documentation: https://www.geeksforgeeks.org/queue-d...
+GFG Heap Documentation : https://www.geeksforgeeks.org/heap-da...
+
+Questions:
+Questions Basic: https://1drv.ms/b/s!AqTOHFO77CqExg8sc...  ​
+Questions Intermediate: https://1drv.ms/b/s!AqTOHFO77CqExg4MN... ​
+
+6.SET && MAP 
+
+References:
+GFG Set Documentation: https://www.geeksforgeeks.org/set-in-...   ​
+GFG Map Documentation : https://www.geeksforgeeks.org/map-ass... ​
+
+Java HashSet : 
+https://www.javatpoint.com/java-hashset
+Java Hash Table: 
+https://www.javatpoint.com/java-hasht...
+Java HashMap: 
+https://www.javatpoint.com/java-hashmap
+
+Set Video: https://www.youtube.com/watch?v=YuZPH... ​
+Map Video: https://www.youtube.com/watch?v=kDwXA... ​
+Differences: https://www.geeksforgeeks.org/differe... ​
+Hashing Playlist: https://www.youtube.com/watch?v=wWgIA... ​
+
+Multiset: https://www.google.com/amp/s/www.geek...
+Multimap: 
+https://www.google.com/amp/s/www.geek...
+
+System Design: https://1drv.ms/b/s!AqTOHFO77CqExhSoQ... ​
+
+Map Questions (must do): https://1drv.ms/b/s!AqTOHFO77CqExhoq6... ​
+
+Questions:
+Questions Basic: https://1drv.ms/b/s!AqTOHFO77CqExhhNw... ​
+Questions Intermediate:: https://1drv.ms/b/s!AqTOHFO77CqExhnOJ... 
+
+7.Graph
+
+References:
+GeeksforGeeks Graph Playlist: https://www.youtube.com/watch?v=1n5XP... ​
+GeeksforGeeks Graph : https://www.geeksforgeeks.org/graph-d...
+GeeksforGeeks Graph archives: https://www.geeksforgeeks.org/categor... ​
+
+Tutorialspoint Graph : https://www.tutorialspoint.com/data_s... ​
+MyCodeSchool Graph: https://www.youtube.com/watch?v=gXgED... ​
+Prateek Narang Graph algo Webinar: https://www.youtube.com/watch?v=MTsvJ... ​
+
+System Design: https://1drv.ms/b/s!AqTOHFO77CqExhSoQ... ​
+
+Questions:
+Questions Basic & Intermediate: https://1drv.ms/b/s!AqTOHFO77CqExhwLn...​
+
+8.Searching and Sorting Algorithms
+
+Resources to follow:
+1) Searching :
+         (a) https://www.hackerearth.com/practice/...
+         (b) https://www.hackerearth.com/practice/...
+2) Sorting: https://www.hackerearth.com/practice/...
+
+GFG Sorting Playlist: https://www.youtube.com/watch?v=MtQL_...
+Linear vs Binary Search: https://www.youtube.com/watch?v=qBGLY...
+
+Questions: https://1drv.ms/b/s!AqTOHFO77CqExijcV... 
+
+9.Recursion and Backtracking
+
+GeeksForGeeks Recusion: https://www.geeksforgeeks.org/recursion/
+GeeksForGeeks Backtracking: https://www.geeksforgeeks.org/backtra...
+
+Resources to follow:
+
+Hackerearth Recursion and Backtracking: "https://www.hackerearth.com/practice/..." 
+
+GFG Recursion Playlist: https://www.youtube.com/watch?v=0Dezn...
+MyCodeSchool recursion Playlist: https://www.youtube.com/watch?v=_OmRG... ​ 
+Recursion Webinar: https://www.youtube.com/watch?v=UaN9W... ​
+Tutorialspoint Backtracking: https://www.tutorialspoint.com/introd... 
+
+​Questions to Practice: 
+Questions Basic & Intermediate: https://1drv.ms/b/s!AqTOHFO77CqExjWWk... ​
+
+10.Dynamic Programming
+
+Resources to follow:
+GeeksforGeeks Dynamic Programming: https://www.geeksforgeeks.org/dynamic... ​
+HackerRank Dynamic Programming: https://www.hackerrank.com/topics/dyn... ​
+Hackerearth Dynamic Programming: https://www.hackerearth.com/practice/...
+
+Dynamic Programming Webinar (1)- https://youtu.be/X7SrnbgqHHs ​ 
+Dynamic Programming Webinar (2)- https://youtu.be/JrLXLSLC7t4 ​​
+GFG DP Playlist: https://www.youtube.com/watch?v=mmjDZ... ​
+
+Questions to Practice: 
+Questions Basic & Intermediate: https://1drv.ms/b/s!AqTOHFO77CqExjjWR... ​
+
+
